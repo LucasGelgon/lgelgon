@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# [Lgelgon] 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Ce site web est principalement à destination d'entreprises informatiques intéressés par mon profil.
+Il présente mon profil et mon portfolio, et propose un formulaire de contact.
 
-In the project directory, you can run:
+## Technologies Utilisées
 
-### `npm start`
+- [React](https://reactjs.org/) - Framework JavaScript pour construire l'interface utilisateur
+- [Node.js](https://nodejs.org/) - Environnement d'exécution JavaScript
+- [Bootstrap](https://getbootstrap.com/) - Framework CSS pour le design responsive
+- [React Router DOM](https://reactrouter.com/) - Gestion du routing dans l'application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prérequis
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js (version recommandée : v16.0.0 ou supérieure)
+- npm (généralement installé avec Node.js)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clonez le repository
+```bash
+git clone https://github.com/LucasGelgon/lgelgon
+```
 
-### `npm run build`
+2. Installez les dépendances
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Lancez l'application en mode développement
+```bash
+npm start
+```
+L'application sera accessible à l'adresse [http://localhost:3000](http://localhost:3000)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# URL
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ce site web est accessible à l'adresse suivante : lgelgon.fr
 
-### `npm run eject`
+## Structure du Projet
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+src/
+└── App.js         # Composant racine de l'application
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Scripts Disponibles
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `npm start` : Lance l'application en mode développement
+- `npm build` : Crée une version de production
+- `npm test` : Lance les tests
+- `npm run eject` : Éjecte la configuration CRA (à utiliser avec précaution)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Routes
 
-## Learn More
+| Route | Description |
+|-------|-------------|
+| `/` | Page d'accueil |
+| `/Profil` | Mon profil|
+| `/CV` | Mon CV |
+| `/Projets` | Mon portfolio|
+| `/Contact` | Formulaire de contact |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Fonctionnalités
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Téléchargement du CV
+- Liens vers mes profils GitHub et Linkedin
+- Formulaire de contact
+- Changement de langue (Française/Anglais)
 
-### Code Splitting
+## Style et UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Le projet utilise Bootstrap pour le style avec :
+- Design responsive
 
-### Analyzing the Bundle Size
+## État du Projet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Version 1.0
 
-### Making a Progressive Web App
+## Auteur
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Lucas Gelgon
 
-### Advanced Configuration
+## Licence
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+MIT
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
