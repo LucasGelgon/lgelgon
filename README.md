@@ -39,20 +39,6 @@ L'application sera accessible à l'adresse [http://localhost:3000](http://localh
 
 Ce site web est accessible à l'adresse suivante : lgelgon.fr
 
-## Structure du Projet
-
-```
-src/
-└── App.js         # Composant racine de l'application
-```
-
-## Scripts Disponibles
-
-- `npm start` : Lance l'application en mode développement
-- `npm build` : Crée une version de production
-- `npm test` : Lance les tests
-- `npm run eject` : Éjecte la configuration CRA (à utiliser avec précaution)
-
 ## Routes
 
 | Route | Description |
@@ -75,16 +61,9 @@ src/
 Le projet utilise Bootstrap pour le style avec :
 - Design responsive
 
-## État du Projet
-
-Version 1.0
-
 ## Auteur
 
 Lucas Gelgon
 
-## Licence
-
-MIT
 
 ---
