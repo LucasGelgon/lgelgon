@@ -1,4 +1,4 @@
-# [lgelgon.fr]
+# lgelgon.fr
 
 ## Description
 
